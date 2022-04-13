@@ -30,18 +30,23 @@
             <li>Jacobian = &rho;<sup>2</sup> Cos(&phi;)</li>
             <li>Process: rewrie F in terms of &theta;, &rho;, and &phi;. Mulitpy by the Jacobian and integrate over &theta;, &rho;, and &phi;</li>
         </ul>
-        </div>  
+        </div> 
+        <div class="topic"> 
         <h2>General Change of Variables</h2>
             <ul>
                 <li>Jacobian: (d<sub>x</sub>/d<sub>u</sub>)(d<sub>y</sub>/d<sub>v</sub>) - (d<sub>x</sub>/d<sub>v</sub>)(d<sub>y</sub>/d<sub>u</sub>)</li>
                 <li>Tips for choosing bounds: notice the equations of the lines. Are they simlar except for a constant? Try using the range of the constant as a bound</li>
             </ul>
+        </div>
+        <div class="topic">
         <h2>Vector Fields</h2>
         <img src="./img/vector_field.png" alt="a three dimensional vector field".>
         <ul>
             <li>Can represent fulid flow, current, or gravity</li>
             <li>Can represnt the gradient of a scalar funtion</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Scalar Line Integrals</h2>
         <img src="./img/scalar_line_integral.png" alt="image of the geometric representation of a line integral of a scalar function">
         <ul>
@@ -52,6 +57,8 @@
             <li>Can represent the area of a wall build on path C with height of F</li>
             <li>&Integral;<sub>C</sub>F dr</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Line Integral of Vector Function</h2>
         <img src="./img/vector_line_integral.png" alt="geometric representation of a line integral of a vector field">
         <ul>
@@ -61,6 +68,8 @@
             <li>Can represent work done by a vector field along the path C</li>
             <li>&Integral;<sub>C</sub>F(vector function) dr</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Fundamental Theorem For Line Integrals</h2>
         <ul>
             <li>F is conservative if P<sub>y</sub> = Q<sub>x</sub> or if the curl is 0</li>
@@ -68,6 +77,8 @@
             <li>If F is conservative and not closed, then there exsists a funition G, such that the gradient of G is equal to F.</li>
             <li>Thus, an integral can be caculated by G(b) - G(a)</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2> Finding A Potential Function</h2>
         <ul>
             <li>Remember the F is the partial derevatives of the function we are trying to find</li>
@@ -77,11 +88,15 @@
             <li>integrate g'(y,z) as found in the previous step to find the c constant for G </li>
             <li>Repeat as necessary for all variables</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Greene's Theorem</h2>
         <ul>
             <li> Applied to Line integrals over a vecotr field when C is a simple, closed, and counterclockwise region</li>
             <li>&Integral;<sub>C </sub>F &LeftAngleBracket; P,Q&RightAngleBracket; dr = &Integral;&Integral;Q<sub>x</sub> - p<sub>y</sub> dA</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Curl and Divergence</h2>
         <img src="./img/curl.png">
         <ul>
@@ -90,11 +105,15 @@
             <li>3D curl is &LeftAngleBracket;dx,dy,dz&RightAngleBracket; x &LeftAngleBracket;P, Q, R&RightAngleBracket;</li>
             <li>Divergence = P<sub>x</sub> + Q<sub>y</sub>+ R<sub>z</sub></li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Parametric Surfaces</h2>
         <ul>
             <li>Surfaces can be paramterized by two variables (for eample x = u, y = v and then plug in x and y for z)</li>
             <li>r<sub>u</sub> x r<sub>v</sub> gives the normal vector for any point which can be used to write and equation for a tangent plan</li>
         </ul>
+        </div>
+        <div class="topic">
         <h2>Surface Integrals</h2>
         <ul>
             <li>&Integral;&Integral;<sub>s</sub> F(x,y,z) ds = &Integral;&Integral;<sub>[uxv]</sub>f(u,v) |r<sub>u</sub> x r<sub>v</sub>| dA</li>
@@ -105,6 +124,7 @@
             <li>Upwards orientation: add constant so that the z component of the normal vector is positve</li>
             <li>This represents the flux or flow through the surface</li>
         </ul>
+        </div>
     </div>
 
 
