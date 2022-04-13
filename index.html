@@ -1,14 +1,58 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Landing Page</title>
+    <title>Calc Review-home</title>
     <meta charset="uft-8">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <h1>test header</h1>
-
+    <h1>Calc Three Final Review</h1>
+        <h2>Cylindrical Coordinates </h2>
+        <ul>
+            <li>x = r Cos(&theta;)</li>
+            <li>y = r Sin(&theta;)</li>
+            <li>z = z</li>
+            <li>Jacobian = r</li>
+            <li>The function represents a mass density formula allowing this to calculate mass or volume(if F = 1)</li>
+            <li>Process: rewrite F(x,y,z) and mulitply by r. Then integrate over r, z, and &theta;</li>
+        </ul>
+        <h2>Spherical Coordinates</h2>
+        <img src="./img/index.png" alt="illustration of spherical coordinates">
+        <ul>
+            <li>x = &rho; Cos(&theta;) Sin(&phi;)</li>
+            <li>y = &rho; Sin(&theta;) Sin(&phi;)</li>
+            <li>z=&rho; Cos(&phi;)</li>
+            <li>Jacobian = &rho;<sup>2</sup> Cos(&phi;)</li>
+            <li>Process: rewrie F in terms of &theta;, &rho;, and &phi;. Mulitpy by the Jacobian and integrate over &theta;, &rho;, and &phi;</li>
+        </ul>
+        <h2>General Change of Variables</h2>
+            <ul>
+                <li>Jacobian: (d<sub>x</sub>/d<sub>u</sub>)(d<sub>y</sub>/d<sub>v</sub>) - (d<sub>x</sub>/d<sub>v</sub>)(d<sub>y</sub>/d<sub>u</sub>)</li>
+                <li>Tips for choosing bounds: notice the equations of the lines. Are they simlar except for a constant? Try using the range of the constant as a bound</li>
+            </ul>
+        <h2>Vector Feilds</h2>
+        <img src="./img/vector_field.png" alt="a three dimensional vector field".>
+        <ul>
+            <li>Can represent fulid flow, current, or gravity</li>
+            <li>Can represnt the gradient of a scalar funtion</li>
+        </ul>
+        <h2>Scalar Line Integrals</h2>
+        <img src="./img/scalar_line_integral.png" alt="image of the geometric representation of a line integral of a scalar function">
+        <ul>
+            <li>Paramterize the path c in terms of t</li>
+            <li>Mulitpy F(x(t),y(t)) and |r'(t)|</li>
+            <li>Integrate over the values of t the paramterize c</li>
+            <li>Can represent mass of wire with mass density of F </li>
+            <li>Can represnt the area of a wall build on path C with height of F</li>
+        </ul>
+        <h2>Line Integral of Vector Function</h2>
+        <img src="./img/vector_line_integral.png" alt="geometric representation of a line integral of a vector field">
+        <ul>
+            <li>Paramaterize path in terms of t (direction matters)</li>
+            <li>Take the dot product of F(x(t),y(t)) and r'(t)</li>
+            <li>integrate over t</li>
+        </ul>
 
 
 
